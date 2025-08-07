@@ -1,0 +1,45 @@
+.footer {
+  background-color: #1c1e53;
+  padding: 96px 0;
+  position: relative;
+  display: flex;
+}
+.footerPragraphFirst {
+  color: #fff;
+  padding-top: 23px;
+}
+
+.footerHeading {
+  color: #fff;
+}
+.footerHeadingSecond {
+  color: #fff;
+  padding: 14px 0 28px;
+}
+.icon {
+  display: flex;
+  column-gap: 26px;
+}
+.icon li a {
+  color: #fff;
+  font-size: 25px !important;
+}
+.childOne {
+  color: #000;
+  font: 18px;
+  font-weight: 500;
+}
+.childTwo {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footerBox {
+  background-color: #fcd980;
+  padding: 17px 37px;
+  display: flex;
+  gap: 27px;
+  position: absolute;
+  top: 100%;
+  transform: translateY(-100%);
+}

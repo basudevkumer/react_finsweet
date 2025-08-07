@@ -1,7 +1,8 @@
-import Menu from "./component/navbar/Menu";
+import Footer from "./component/footer/Footer";
+
 
 function App() {
-  return <Menu />;
+  return <Footer />;
 }
 
 export default App;

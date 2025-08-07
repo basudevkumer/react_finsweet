@@ -1,3 +1,40 @@
-h1{
-  color: red;
+.navbarColor {
+  background-color: #1c1e53;
+}
+
+.navElement {
+  margin-right: 48px;
+}
+.navElement a {
+  color: #fff !important;
+  padding: 0 32px !important;
+  font-weight: 400 !important;
+  line-height: 28px;
+  font-size: 16px !important;
+}
+.navMain {
+  padding: 16px 0;
+}
+.contactBtn {
+  font-weight: 400 !important;
+  line-height: 28px;
+  font-size: 16px !important;
+  color: #fff !important;
+  padding: 16px 48px;
+  border-radius: 41px;
+  border: 1px solid #fff;
+}
+.navDropDownParent {
+  background: transparent !important;
+}
+
+.navbar-nav .dropdown-menu {
+  background: transparent;
+  border: 0;
+}
+.navbar-nav .dropdown-menu a {
+  background-color: #0d6efd;
+  padding: 8px 32px !important;
+   border-bottom: 1px solid white;
+   border-radius: 6px;
 }
