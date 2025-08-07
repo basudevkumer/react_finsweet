@@ -1,0 +1,77 @@
+
+
+nav---- Roots: 1. Home
+2. About Us
+3. Features (Dropdown/Submenu)
+    ├── Work
+    └── Read Case Study
+4. Pricing
+5. FAQ
+6. Blog (Dropdown/Submenu)
+    └── Read Blog
+7. Contact Us
+
+
+
+
+rootlay out ---- navbar and footer
+
+
+wide most pages common components....
+1.buttons...
+2. home and features ...{same bannar}
+3.Uses Client First(home)...... ai related components... use hobe {home,about,feature,}
+4. akta slider make this component {use in the page... about,feature}
+5.Blog component... most use in pages (home , blog)
+6. Accordion  parts will be compoment.... and use in {Home,pricing}
+5. pages are about us and feature  made component {only bannar }
+6.  a commonthimgs {heading and paragraph} in read case study and read block and policy.....
+7.Our mission ....... make this component (use in about and feature)
+8. Contact us ...... make this component .... use in ( contact us and privacy ) part
+
+
+page base component----- 
+home----
+1.strategy part .... will be component.
+2.image card text will be coponenet...
+3.use client fist this part will be component
+4. What our clients and frequently willl be component...
+5. our blog post will be component...
+
+
+about us ----
+1. who we are... make this component.....
+2.planning .... make this component....
+3. meet out our team...
+
+pricing---
+1.299 $ per design..... make this component.....
+
+Feature---
+
+
+
+work--- 
+ 1. Tmplate 1,2,3,4 etc make this component..... 
+
+
+read case study---
+1.client ..... facebook.com .....  make this component....
+2. About the project ...... make this component...
+
+
+block page---
+1. our blog make this component...
+
+
+
+
+read block---
+
+
+
+contact us---
+1. input this input field component... first four... 
+
+
+privacy policy---

@@ -9,7 +9,7 @@ import {
 import Logo from "../../assets/logo.png";
 import "./menu.css";
 
-function Menu() {
+const Menu = () => {
   return (
     <Navbar expand="lg" className="navbarColor navMain ">
       <Container>

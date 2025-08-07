@@ -1,0 +1,25 @@
+.work {
+  padding: 128px 0;
+  background-color: #F4F6FC;
+}
+.workHeadingOne {
+  color: #282938;
+}
+.workPragraphOne {
+  color: #282938;
+  padding: 16px 0;
+}
+.workButtonIcon{
+  font-size: 25px;
+  
+}
+.workButtonCustomEdit{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  gap: 18px;
+}
+.cardparent{
+      --bs-gutter-y: 50px;
+
+}
