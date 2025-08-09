@@ -9,9 +9,9 @@
   color: #282938;
   padding: 16px 0;
 }
-.workButtonIcon{
-  font-size: 25px;
-  
+.workButtonIcon {
+    font-size: 25px;
+    color: #2405F2;
 }
 .workButtonCustomEdit{
   display: flex;

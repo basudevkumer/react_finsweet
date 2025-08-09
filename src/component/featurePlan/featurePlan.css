@@ -1,0 +1,41 @@
+.featurePlanTextElement{
+  text-align: center;
+
+}
+.featurePlanePragraphOne{
+  width: 562px;
+  margin: 0 auto;
+  margin-top: 16px;
+
+}
+.featurePlanMain{
+  padding: 128px 0;
+
+}
+.allFeatureCardElementsPraent{
+  margin-top: 68px !important;
+  display: flex;
+  align-items: stretch;
+
+}
+.itemsNone{
+  display: none;
+}
+.featureCardHeight{
+  /* height: 745px; */
+}
+.isNone{
+  display: none;
+}
+.featureCardsOne{
+  padding: 78px 0;
+}
+.motherCardRow{
+  padding: 64px 0 0;
+}
+.featureCardsTree {
+    padding: 22px 0px 46px;
+}
+.featureCardsTwo {
+    padding: 65px 0px 63px;
+}

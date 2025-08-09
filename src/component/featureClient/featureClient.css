@@ -1,0 +1,17 @@
+.featureClientOne{
+  padding: 0 0 128px;
+  align-items: center;
+}
+.featureClientTwo{
+  padding: 128px 0;
+  background-color: #F4F6FC;
+   align-items: center;
+}
+.featureClientTree{
+  padding: 128px 0;
+   align-items: center;
+}
+.featureClientMains{
+  padding: 128px 0;
+   align-items: center;
+}

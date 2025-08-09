@@ -1,0 +1,10 @@
+.creativeTaskImg {
+  display: flex;
+  gap: 24px;
+}
+.crativeHeading {
+  padding: 32px 0 9px;
+}
+.creativeImageCommonEdit {
+  width: 100%;
+}

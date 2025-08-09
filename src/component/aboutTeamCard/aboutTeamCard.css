@@ -1,0 +1,53 @@
+.aboutCardImages {
+  width: 168px;
+  height: 168px;
+  object-fit: cover;
+}
+
+.aboutTeamCardHeading {
+  padding-top: 30px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+.aboutCardImgOverlay {
+
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.aboutCardImgIcon {
+  position: absolute;
+  background: linear-gradient(#ffffff00,#5239FA) ;
+  width: 170px;
+  height: 170px;
+  /* border-radius: 50%; */
+  top: 102%;
+  left: 0;
+  transition: 0.7s ease-in-out;
+}
+.aboutTeamCardMain:hover .aboutCardImgIcon {
+  top: 0;
+}
+.iconElemtnts {
+  display: flex;
+  gap: 16px;
+ 
+  margin: 112px 30px 24px 48px;
+}
+.iconElemtnts li  {
+  
+}
+.iconElemtnts li a {
+  color: #fff;
+  
+}
+.aboutTeamCardMain{
+  padding: 48px 64px 32px;
+  background: #fff;
+
+}
+.aboutTeamCardPragraph{
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+.footerNav {
+  padding: 32px 0;
+}
+.footerNavChild li a {
+  font-weight: 400 !important;
+  line-height: 28px !important;
+  font-size: 16px !important;
+  color: #282938 !important;
+}
+.footerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerNavChild {
+  display: flex;
+  gap: 32px;
+
+}

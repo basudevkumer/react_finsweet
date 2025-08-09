@@ -1,0 +1,52 @@
+.projectElementMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 64px;
+}
+.projectIcon {
+  color: #282938;
+  font-size: 20px;
+}
+.projectButton {
+  padding-right: 16px;
+}
+.project {
+  padding: 128px 0;
+}
+.projectImg {
+  width: 100%;
+}
+.bigCard {
+  position: relative;
+  overflow: hidden;
+}
+.overlayChild {
+  position: absolute;
+  top: 0;
+  left: -55%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(#1c1e536c, #1c1e53);
+  transition: 0.5s all linear;
+    padding: 310px 40px 76px;
+}
+.bigCard:hover .overlayChild {
+  left: 0 !important;
+}
+
+.projectCardPragraph{
+color: #fff;  
+padding: 16px 0 40px;
+}
+.projectCardHeading{
+  color: #fff;
+}
+.projectCardIcon{
+   color: #FCD980;
+   font-size: 25px;
+   margin-left: 15px;
+}
+.smallCardOne{
+  margin-bottom: 37px;
+}

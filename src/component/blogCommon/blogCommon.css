@@ -1,0 +1,24 @@
+.blogCard {
+  border: 0;
+}
+.blogButtonGroup {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 32px;
+}
+.blogPragraphTwo {
+}
+.blogHeading {
+  padding: 16px 0;
+}
+.blogImages {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.blogIcons {
+  font-size: 25px;
+}
+.footerPragraph{
+  
+}

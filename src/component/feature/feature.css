@@ -1,0 +1,18 @@
+.featureTopPart {
+  text-align: center;
+}
+.featurePragraph {
+  padding-bottom: 12px;
+}
+.featureHeading {
+  width: 630px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.feature {
+  padding: 128px 0;
+  background: #f4f6fc;
+}
+.featureCardRow {
+  --bs-gutter-y: 28px;
+}

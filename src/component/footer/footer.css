@@ -42,3 +42,6 @@
   top: 100%;
   transform: translateY(-100%);
 }
+.footerLastPart{
+  padding: 32px 0;
+}

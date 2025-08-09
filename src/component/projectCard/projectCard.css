@@ -1,0 +1,32 @@
+.projectCardImgEdit {
+  width: 100%;
+  height: 100%;
+}
+.projectCardCompntMain {
+  position: relative;
+  overflow: hidden;
+}
+.customProjectOverlay {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background: linear-gradient(#1c1e536c, #1c1e53);
+  width: 100%;
+  height: 100%;
+  padding: 129px 36px 83px 56px;
+  transition: 0.5s all linear;
+}
+.projectCardCompntMain:hover .customProjectOverlay {
+  left: 0;
+}
+
+.customProjectHeading {
+  color: #fff;
+}
+.projectButton {
+  margin-top: 10px;
+}
+.projectCardIconTwo {
+  color: #fcd980;
+  font-size: 25px;
+}

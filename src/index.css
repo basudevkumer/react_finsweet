@@ -27,34 +27,54 @@ ul {
   font-size: 54px;
   line-height: 74px;
   font-weight: 600;
+  color: #282938;
 }
 .heading2 {
   font-size: 48px;
   line-height: 64px;
   font-weight: 600;
+  color: #282938;
 }
 .heading3 {
   font-size: 38px;
   line-height: 56px;
   font-weight: 600;
+  color: #282938;
 }
 .heading4 {
   font-size: 36px;
   line-height: 56px;
   font-weight: 500;
+  color: #282938;
 }
 .heading5 {
   font-size: 32px;
   line-height: 48px;
   font-weight: 500;
+  color: #282938;
 }
 .heading6 {
   font-size: 24px;
   line-height: 36px;
   font-weight: 500;
+
+  color: #282938;
 }
 .pragraph {
   font-weight: 400 !important;
   line-height: 28px !important;
   font-size: 16px !important;
+  color: #282938;
+}
+.commonImages{
+  width: 100%;
+}
+.missionInitialEdit{
+  padding: 96px 0 0 ;
+}
+
+/* ===================== Other Common things ================ */
+
+.none{
+  display: none;
 }

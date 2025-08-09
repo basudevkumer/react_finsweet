@@ -1,0 +1,8 @@
+.aboutUsers{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.aboutslider{
+  padding-bottom: 128px;
+}

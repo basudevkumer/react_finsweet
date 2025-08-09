@@ -1,0 +1,68 @@
+.featurePlanCardMain {
+  padding: 64px 48px 64px 48px;
+  border: 0;
+  background: #f4f6fc;
+  transition: 0.5s ease-in-out;
+  height: 100%;
+}
+.featureCardHeadingMoney {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.featureMiddleHeading {
+  padding: 20px 0 9px;
+}
+.featureCardItems {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.featurePlanCardMain {
+}
+.featureButtonParent {
+  text-align: center;
+}
+.featureButton {
+  padding: 16px 78px;
+  border-radius: 41px;
+  background: #282938;
+  color: #fff;
+  white-space: nowrap;
+  transition: 0.5s ease-in-out;
+}
+.featureIcon {
+  padding-right: 2px;
+  color: #97daad;
+  font-size: 20px;
+}
+
+.featurePlanCardMain {
+  transition: 0.5s ease-in-out;
+}
+.featurePlanCardMain:hover .featureButton {
+  background: #fcd980;
+  color: #1c1e53 !important;
+}
+.featurePlanCardMain:hover {
+  background: #1c1e53;
+}
+.featurePlanCardMain:hover .featureIcon {
+  color: #97daad !important;
+}
+.featurePlanCardMain:hover .featureCardHeadingMoney * {
+  color: #fff;
+}
+.featurePlanCardMain:hover .featureMiddleHeading   {
+  color: #fff;
+}
+.featurePlanCardMain:hover .featureItem   {
+  color: #fff ;
+}
+.featurePlanCardMain:hover .fpp   {
+  color: #fff ;
+}
+ 
+.featurePlanCardMain *{
+  transition: 0.5s ease-in-out;
+}
