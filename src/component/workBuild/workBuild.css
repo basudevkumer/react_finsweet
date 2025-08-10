@@ -1,0 +1,25 @@
+.workBuldButton:hover{
+  background: #1C1E53;
+  color: #fff;
+}
+.workBuldButton{
+  padding: 16px 67px;
+  background: #FCD980;
+  color: #1B1C2B;
+  border-radius: 41px;
+  transition: 0.5s ease-in-out;
+}
+.workBuldElement{
+  text-align: center;
+  
+}
+
+.workPragraph{
+  width: 562px;
+  margin: 0 auto;
+  padding: 20px 0 40px;
+
+}
+.workBuldMain{
+  padding: 128px 0;
+}

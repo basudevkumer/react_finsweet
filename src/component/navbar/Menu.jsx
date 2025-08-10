@@ -26,7 +26,11 @@ const Menu = () => {
               About us
             </Nav.Link>
 
-            <NavDropdown title="Features" className="navDropDownParent" id="basic-nav-dropdown">
+            <NavDropdown
+              title="Features"
+              className="navDropDownParent"
+              id="basic-nav-dropdown"
+            >
               <NavDropdown.Item href="" className="navDropDownChild">
                 Work
               </NavDropdown.Item>
@@ -40,18 +44,24 @@ const Menu = () => {
             <Nav.Link href="" className="">
               FAQ
             </Nav.Link>
-            <NavDropdown title="Blog" className="navDropDownParent" id="basic-nav-dropdown">
+            <NavDropdown
+              title="Blog"
+              className="navDropDownParent"
+              id="basic-nav-dropdown"
+            >
               <NavDropdown.Item href="" className=" navDropDownChild">
                 {" "}
                 Read Blog
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <a href="" className="contactBtn">Contact Us</a>
+          <a href="" className="contactBtn">
+            Contact Us
+          </a>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
-}
+};
 
 export default Menu;

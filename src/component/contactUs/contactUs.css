@@ -1,0 +1,36 @@
+.contactUsMain {
+  padding: 128px 0;
+}
+
+.contactUsTopPart {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  text-align: center;
+}
+.contactInput {
+  margin-top: 64px;
+  padding: 58px 77px;
+  background: #f4f6fc;
+}
+.inputFeilds {
+  background: transparent;
+  padding: 18px 32px;
+}
+.contactInputInside {
+  --bs-gutter-x: 32px;
+  --bs-gutter-y: 24px;
+}
+.inputTitleName{
+  font-weight: 500;
+  font-size: 18px;
+}
+.contactPagesButtonInside{
+  padding: 16px 64px;
+  background: #282938;
+  color: #fff;
+  border-radius: 41px;
+}
+.contactPagesButton{
+  margin-top: 32px;
+}

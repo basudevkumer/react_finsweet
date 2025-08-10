@@ -1,0 +1,13 @@
+.readslideMain ul {
+  display: flex;
+  gap: 85px;
+}
+.readslideMain ul li:nth-child(1){
+  color: #2405F2;
+}
+.readslideMain{
+  padding: 24px 0;
+  border: 1px solid rgba(40, 41, 56, 0.293);
+  border-left: 0;
+  border-right: 0;
+}

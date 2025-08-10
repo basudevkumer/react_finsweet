@@ -1,0 +1,19 @@
+.projectPoint {
+  display: flex;
+  align-items: center;
+}
+.projectPointIcon {
+  font-size: 16px;
+  margin-right: 16px;
+}
+.projectPragarphTop {
+  padding: 12px 0 24px;
+}
+.projectPointMain {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.cardMain{
+ border: 0;
+}

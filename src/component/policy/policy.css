@@ -1,0 +1,15 @@
+.policyTopPart {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  text-align: center;
+}
+.policyMain{
+  padding: 128px 0;
+}
+.policyMiddlePart{
+  padding: 64px 0 40px;
+}
+.policyLastPartPadding{
+  padding-top: 18px;
+}

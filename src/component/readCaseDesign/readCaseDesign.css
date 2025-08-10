@@ -1,0 +1,14 @@
+.readCaseDesignHeading {
+  padding: 12px 0 16px;
+}
+.readCaseDesignMain {
+  padding: 128px 0 96px;
+}
+.readCaseDesignImage {
+  padding: 48px 0;
+}
+.readCaseStudyDivider {
+  width: 100%;
+  border: 2px solid rgba(40, 41, 56, 0.267);
+  margin-top: 32px;
+}

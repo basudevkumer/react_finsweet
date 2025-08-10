@@ -1,0 +1,15 @@
+.workCommonCardMain{
+
+}
+.workCommonCardIcon{
+  margin-left: 16px;
+  font-size: 25px;
+}
+.workCommonCardButton{
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.workCommonHeading{
+  padding: 24px 0 12px;
+}

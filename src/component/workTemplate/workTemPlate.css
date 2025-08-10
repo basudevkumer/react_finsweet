@@ -1,0 +1,25 @@
+.workTemplateMain {
+  padding: 96px 0 0;
+}
+.workTemplateListMain {
+  padding: 0 0 48px;
+}
+.workTemplateListITems {
+  display: flex;
+  justify-content: center;
+  column-gap: 32px;
+}
+.workTemplateListITems li a {
+  color: #282938;
+  font-weight: 500;
+}
+.workTemplateListITems li:hover a {
+  color: #2405f2;
+}
+.workTempleteButtonCss {
+  color: #282938;
+}
+.allTempleteMain {
+  --bs-gutter-x: 46px;
+  --bs-gutter-y: 64px;
+}

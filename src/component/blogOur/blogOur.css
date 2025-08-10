@@ -1,0 +1,15 @@
+.blogOurHeading {
+  text-align: center;
+}
+.blogOurElements {
+  padding: 48px 0;
+  --bs-gutter-x: 35px;
+  --bs-gutter-y: 64px;
+}
+.ourBlogBtn {
+  color: #1c1e53;
+}
+
+.blogOur {
+  padding: 0 0 128px;
+}

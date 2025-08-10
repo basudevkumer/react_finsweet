@@ -1,0 +1,18 @@
+.workPortfolioTopElement{
+  text-align: center;
+}
+.workPortFolioIcon{
+  display: flex;
+  column-gap: 27px;
+  margin-top: 32px;
+  justify-content: center;
+}
+.workPortFolioIcon li a {
+  color: #282938;
+  font-size: 23px;
+  
+}
+.workPortfolioMain{
+  background: #F4F6FC;
+  padding: 96px 0;
+}
