@@ -22,8 +22,8 @@ const ReadBlogUx = () => {
         </Row>
         <Row>
           <Col lg={12}>
-            <div className="readBlogImg commonImages">
-              <Image src={ReadBlogUxIamges} />
+            <div className="readBlogImg ">
+              <Image src={ReadBlogUxIamges} className="commonImages"/>
             </div>
           </Col>
         </Row>

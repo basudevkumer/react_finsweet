@@ -32,9 +32,16 @@
   background: transparent;
   border: 0;
 }
+
+.navbar-nav .dropdown-menu a:last-child {
+  border: 0;
+}
 .navbar-nav .dropdown-menu a {
-  background-color: #0d6efd;
+
+  background-color: rgba(13, 109, 253, 0.919);
+ 
   padding: 8px 32px !important;
   border-bottom: 1px solid white;
   border-radius: 6px;
+ 
 }

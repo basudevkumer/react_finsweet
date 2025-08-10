@@ -1,5 +1,6 @@
 import { Col, Container, Nav, Navbar, NavDropdown, Row } from "react-bootstrap";
 import "./footerNav.css";
+import { Link } from "react-router";
 
 const FooterNav = () => {
   return (
@@ -9,7 +10,7 @@ const FooterNav = () => {
           <div className="footerNav">
             <p className="pragraph footerPragraph">
               {" "}
-              Copyright 2022, Finsweet.com
+              Copyright 2022, Finsweet.com |  <Link to={"/policy"} className=" footerPolicy">Privacy Policy</Link>
             </p>
             <div className="footerNavElement">
               <ul className="footerNavChild">
