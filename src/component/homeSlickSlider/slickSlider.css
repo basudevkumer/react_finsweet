@@ -1,0 +1,15 @@
+.slickSliderPragraph {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+.slickSliderTextElement {
+  display: flex;
+  gap: 25px;
+  padding-top: 45px;
+}
+.slickSliderImg {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}

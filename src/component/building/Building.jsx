@@ -6,6 +6,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 
 const Building = () => {
+  
   return (
     <section className="building">
       <Container>

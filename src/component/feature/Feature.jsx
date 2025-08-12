@@ -7,14 +7,26 @@ import ImageTree from "../../assets/featureicon3.png";
 import ImageFour from "../../assets/featureicon4.png";
 import ImageFive from "../../assets/featureicon5.png";
 import ImageSix from "../../assets/featureicon6.png";
-
+import Aos from "aos";
+import { useEffect } from "react";
 const Feature = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      once:false
+    });
+  }, []);
   return (
     <section className="feature">
       <Container>
         <Row>
           <Col lg={12}>
-            <div className="featureTopPart">
+            <div
+              className="featureTopPart"
+            
+                data-aos="fade-up"
+               
+            >
               <p className="pragraph featurePragraph">Features</p>
               <h2 className="heading2 featureHeading">
                 Design that solves problems, one product at a time

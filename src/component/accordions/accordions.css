@@ -6,3 +6,11 @@
 .accordionBody{
   margin-left: 75px;
 }
+.accordionItems:last-child{
+  border-bottom: 0;
+}
+.accordionItems{
+  border-top: 0;
+  border-left:0 ;
+  border-right: 0;
+}

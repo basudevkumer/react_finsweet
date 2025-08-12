@@ -4,16 +4,20 @@ import Button from "../button/Button";
 import { CgArrowLongRight } from "react-icons/cg";
 import WorkCard from "../workCard/WorkCard";
 import CardOne from "../../assets/pointer1.png";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Work = () => {
+ 
+
   return (
     <section className=" work">
       <Container>
         <Row>
           <Col lg={{ span: 4 }}>
-            <div className="workPartOne">
+            <div className="workPartOne ">
               <h2 className="heading2 workHeadingOne"> How we work</h2>
-              <p className="pragraph workPragraphOne">
+              <p className="pragraph workPragraphOne" >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
@@ -52,6 +56,7 @@ const Work = () => {
                 pragraphChildren={
                   "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."
                 }
+                
               />
               <WorkCard
                 col={6}
