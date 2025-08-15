@@ -1,7 +1,7 @@
-.workPortfolioTopElement{
+.workPortfolioTopElement {
   text-align: center;
 }
-.workPortFolioIcon{
+.workPortFolioIcon {
   display: flex;
   column-gap: 27px;
   margin-top: 32px;
@@ -10,9 +10,27 @@
 .workPortFolioIcon li a {
   color: #282938;
   font-size: 23px;
-  
 }
-.workPortfolioMain{
-  background: #F4F6FC;
+.workPortfolioMain {
+  background: #f4f6fc;
   padding: 96px 0;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .workPortfolioMain {
+    padding: 70px 0;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .workPortfolioMain {
+    padding:78px 0;
+  }
+}
+
+/* responsive for  small devices end */

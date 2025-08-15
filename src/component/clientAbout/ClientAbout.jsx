@@ -28,7 +28,6 @@ function SamplePrevArrow(props) {
 
 const ClientAbout = () => {
   var settings = {
-    
     infinite: true,
     speed: 500,
     slidesToShow: 1,

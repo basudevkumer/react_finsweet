@@ -27,7 +27,7 @@ const CommonSlider = () => {
     <div>
       <Swiper
         slidesPerView={5}
-        spaceBetween={88}
+        spaceBetween={30}
         centeredSlides={true}
         loop={true}
         autoplay={{
@@ -41,41 +41,41 @@ const CommonSlider = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageOne} />
+        <SwiperSlide >
+          <Image src={SlidImageOne}  className="commonImages"/>
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageTwo} />
+        <SwiperSlide  >
+          <Image src={SlidImageTwo} className="commonImages" />
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageTree} />
+        <SwiperSlide >
+          <Image src={SlidImageTree} className="commonImages" />
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageFour} />
+        <SwiperSlide >
+          <Image src={SlidImageFour} className="commonImages" />
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageFive} />
+        <SwiperSlide >
+          <Image src={SlidImageFive} className="commonImages" />
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageSix} />
+        <SwiperSlide >
+          <Image src={SlidImageSix}  className="commonImages"/>
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageOne} />
+        <SwiperSlide >
+          <Image src={SlidImageOne} className="commonImages" />
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageTwo} />
+        <SwiperSlide >
+          <Image src={SlidImageTwo}  className="commonImages"/>
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageTree} />
+        <SwiperSlide >
+          <Image src={SlidImageTree}  className="commonImages"/>
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageFour} />
+        <SwiperSlide >
+          <Image src={SlidImageFour}  className="commonImages"/>
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageFive} />
+        <SwiperSlide >
+          <Image src={SlidImageFive}  className="commonImages"/>
         </SwiperSlide>
-        <SwiperSlide className="commonImages">
-          <Image src={SlidImageSix} />
+        <SwiperSlide >
+          <Image src={SlidImageSix} className="commonImages" />
         </SwiperSlide>
       </Swiper>
     </div>

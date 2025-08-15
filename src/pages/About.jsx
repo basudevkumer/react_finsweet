@@ -13,7 +13,7 @@ const About = () => {
       <AboutGoal />
       <AboutFollow />
       <AboutMission />
-      <AboutBenifit aboutBenifitPMContorl={"aboutBenifit"} />
+      <AboutBenifit />
       <AboutSlider />
       <AboutCard/>
     </>

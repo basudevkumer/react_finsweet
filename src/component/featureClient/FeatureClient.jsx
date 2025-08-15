@@ -23,12 +23,16 @@ const FeatureClient = () => {
             />
           </Col>
           <Col lg={{ span: 5, offset: 1 }}>
-            <Image src={FeatureOne} className="commonImages" />
+            <div className="featureClientImgOne">
+              <Image src={FeatureOne} className="commonImages " />
+            </div>
           </Col>
         </Row>
         <Row className="featureClientTwo">
           <Col lg={{ span: 5 }}>
-            <Image src={FeatureTwo} className="commonImages"/>
+            <div className="featureClientImgTwo">
+              <Image src={FeatureTwo} className="commonImages" />
+            </div>
           </Col>
           <Col lg={{ span: 6, offset: 1 }}>
             <AboutCommon
@@ -36,9 +40,7 @@ const FeatureClient = () => {
               pragraphTwo={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
               }
-              heading={
-                "Get free Revisions and one week of free maintenance "
-              }
+              heading={"Get free Revisions and one week of free maintenance "}
             />
           </Col>
         </Row>
@@ -55,12 +57,16 @@ const FeatureClient = () => {
             />
           </Col>
           <Col lg={{ span: 5, offset: 1 }}>
-            <Image src={FeatureThree} className="commonImages" />
+            <div className="featureClientImgThree">
+              <Image src={FeatureThree} className="commonImages" />
+            </div>
           </Col>
         </Row>
         <Row className="featureClientMains">
           <Col lg={{ span: 5 }}>
-            <Image src={FeatureFour} className="commonImages"/>
+            <div className="featureClientImgFour">
+              <Image src={FeatureFour} className="commonImages" />
+            </div>
           </Col>
           <Col lg={{ span: 6, offset: 1 }}>
             <AboutCommon

@@ -4,12 +4,42 @@
   row-gap: 16px;
   text-align: center;
 }
-.policyMain{
+.policyMain {
   padding: 128px 0;
 }
-.policyMiddlePart{
+.policyMiddlePart {
   padding: 64px 0 40px;
 }
-.policyLastPartPadding{
+.policyLastPartPadding {
   padding-top: 18px;
 }
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+ .policyMain {
+    padding: 60px 0;
+  }
+  .policyTopPartHeadings{
+    font-size: 35px;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .policyMain {
+    padding: 80px 0;
+  }
+}
+
+/* responsive for  small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .policyMain {
+    padding: 80px 0;
+  }
+}
+
+/* responsive for  medium devices end */

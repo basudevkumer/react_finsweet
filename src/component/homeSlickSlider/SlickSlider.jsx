@@ -6,7 +6,7 @@ import HomeSliderImage from "../../assets/homesliderimg.png";
 const SlickSlider = () => {
   return (
     <div className="slickSliderMain">
-      <h5 className="heading5">
+      <h5 className="heading5 slickSliderHeading">
         "The best agency we’ve worked with so far. They understand our product
         and are able to add new features with a great focus."
       </h5>
@@ -14,7 +14,7 @@ const SlickSlider = () => {
         <Image src={HomeSliderImage} className="slickSliderImg" />
         <div>
           <p className="slickSliderPragraph">Jenny Wilson</p>
-          <p className="pragraph">Vice President</p>
+          <p className="pragraph  slickSliderPragraphTwo">Vice President</p>
         </div>
       </div>
     </div>

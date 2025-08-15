@@ -22,7 +22,7 @@ const ReadCommonCard = ({
   return (
     <Card className="cardMain">
       <Card.Body>
-        <Card.Title className="heading3">{heading}</Card.Title>
+        <Card.Title className="heading3 ReadCommonCardFirstHeading">{heading}</Card.Title>
         <Card.Text className="pragraph  projectPragarphTop">
           {pragraphOne}
         </Card.Text>

@@ -1,18 +1,66 @@
-.readBlogUx{
+.readBlogUx {
   padding: 128px 0 96px;
 }
-.readBlogUxTopPart{
+.readBlogUxTopPart {
   text-align: center;
 }
-.readBlogImg{
+.readBlogImg {
   padding: 32px 0 80px;
 }
-.readBlogUxTextPartMiddle{
+.readBlogUxTextPartMiddle {
   padding: 40px 0 32px;
 }
-.readBlogUxTextPartMiddleChildPragraph{
+.readBlogUxTextPartMiddleChildPragraph {
   padding: 24px 0 32px;
 }
-.readBlogUxTextPartLast{
-  padding: 56px 0 0 ;
+.readBlogUxTextPartLast {
+  padding: 56px 0 0;
 }
+.readBlogUxTextPartBannarSecondImage {
+  width: 100%;
+  height: 100%;
+}
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .readBlogUxTopPartHeading {
+    font-size: 29px;
+    line-height: 41px;
+  }
+  .readBlogUx {
+    padding: 70px 0 36px;
+  }
+  .readBlogUxTextPartBannarSecondImage {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .blogPagePartHeading {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .blogStudioMain {
+    padding: 100px 0 43px;
+  }
+}
+
+/* responsive for  small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .blogPagePartHeading {
+    font-size: 38px;
+    line-height: 56px;
+  }
+  .blogStudioMain {
+    padding: 100px 0 65px;
+  }
+}
+
+/* responsive for  medium devices end */

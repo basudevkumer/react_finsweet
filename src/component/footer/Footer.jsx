@@ -13,7 +13,7 @@ const Footer = () => {
     <section>
       <div className="footer">
         <Container>
-          <Row>
+          <Row className="footerRowOne">
             <Col lg={5}>
               <div className="footerPart1">
                 <a href="">

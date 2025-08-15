@@ -37,3 +37,47 @@
   bottom: 0;
   right: 80px;
 }
+
+/* responsive for extra small device start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  /* client part padding */
+  .clientAbout {
+    padding: 65px 0;
+  }
+  /* slider part */
+  .left {
+    right: 45.5px;
+  }
+  .right,
+  .left {
+    height: 37px;
+    width: 37px;
+  }
+}
+
+/* responsive for extra small device end */
+/* responsive for  small device start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /* client part padding */
+  .clientAbout {
+    padding: 65px 0;
+  }
+  /* slider part */
+  .left {
+
+  }
+}
+
+/* responsive for  small device end */
+/* responsive for  medium device start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* client part padding */
+  .clientAbout {
+    padding: 100px 0;
+  }
+}
+
+/* responsive for  medium device end */

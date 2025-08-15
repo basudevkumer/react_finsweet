@@ -11,7 +11,7 @@ const ReadBlogUx = () => {
         <Row>
           <Col lg={{ span: 10, offset: 1 }}>
             <div className="readBlogUxTopPart">
-              <h2 className="heading2">
+              <h2 className="heading2 readBlogUxTopPartHeading">
                 A UX Case Study on Creating a Studious Environment for Students
               </h2>
               <p className="pragraph">
@@ -75,7 +75,7 @@ const ReadBlogUx = () => {
         <Row>
           <Col lg={{ span: 8, offset: 2 }}>
             <div className="readBlogUxTextPartBannarSecondImage">
-              <Image src={ReadBlogUxImageTwo} />
+              <Image src={ReadBlogUxImageTwo}  className="commonImages"/>
             </div>
           </Col>
         </Row>

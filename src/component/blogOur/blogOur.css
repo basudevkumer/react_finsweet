@@ -13,3 +13,39 @@
 .blogOur {
   padding: 0 0 128px;
 }
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .blogOur {
+    padding: 0 0 15px;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .blogOur {
+    padding: 0 0 22px;
+  }
+}
+
+/* responsive for  small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .blogOur {
+    padding: 0 0 55px;
+  }
+}
+
+/* responsive for medium devices end */
+/* responsive for  large devices start */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .blogOur {
+    padding: 0 0 55px;
+  }
+}
+
+/* responsive for large devices end */

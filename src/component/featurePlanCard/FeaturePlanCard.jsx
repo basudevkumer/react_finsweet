@@ -27,8 +27,8 @@ const FeaturePlanCard = ({
     <Card className="featurePlanCardMain">
       <Card.Body className="featureCardBody">
         <div className="featureCardHeadingMoney">
-          <Card.Title className="heading3">{headingOne}</Card.Title>
-          <Card.Text className="pragraph">{pragraphOne}</Card.Text>
+          <Card.Title className="heading3 headingOne">{headingOne}</Card.Title>
+          <Card.Text className="pragraph pragraphOne">{pragraphOne}</Card.Text>
         </div>
         <Card.Title className="heading6 featureMiddleHeading">
           {headingTwo}

@@ -16,3 +16,70 @@
 .featureCardRow {
   --bs-gutter-y: 28px;
 }
+/* responsive for extra small device start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  /*===== feature part ===== */
+  .feature {
+    padding: 75px 0;
+  }
+  .featureHeading {
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+
+/* responsive for extra small device end */
+/* responsive for  small device start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /*===== feature part ===== */
+  .feature {
+    padding: 75px 0;
+  }
+  .featureHeading {
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* responsive for small device end */
+/* responsive for  medium device start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /*===== feature part ===== */
+  .feature {
+    padding: 80px 0;
+  }
+  .featureHeading {
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-size: 35px;
+    line-height: 52px;
+  }
+}
+
+/* responsive for medium device end */
+/* responsive for  large device start */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /*===== feature part ===== */
+  .feature {
+    padding: 100px 0;
+  }
+  .featureHeading {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-size: 43px;
+    line-height: 58px;
+  }
+}
+
+/* responsive for large device end */

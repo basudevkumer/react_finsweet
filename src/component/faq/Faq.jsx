@@ -21,6 +21,7 @@ const Faq = () => {
               <Button
                 textColor={"#2405F2"}
                 children={"Contact us for more info"}
+                className="faqButton"
               />
             </div>
           </Col>

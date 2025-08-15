@@ -3,7 +3,6 @@ import "./featurePlan.css";
 
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import FeaturePlanCard from "../featurePlanCard/FeaturePlanCard";
-import { FaCaretRight } from "react-icons/fa";
 
 const FeaturePlan = () => {
   return (
@@ -12,7 +11,7 @@ const FeaturePlan = () => {
         <Row>
           <Col lg={{ span: 6, offset: 3 }}>
             <div className="featurePlanTextElement">
-              <h2 className="heading2">Our Pricing Plans</h2>
+              <h2 className="heading2 featurePlanHeading">Our Pricing Plans</h2>
               <p className="pragraph featurePlanePragraphOne">
                 When you’re ready to go beyond prototyping in Figma, Webflow is
                 ready to help you bring your designs to life — without coding
@@ -39,32 +38,34 @@ const FeaturePlan = () => {
               fpi6={"isNone"}
               fpi8={"isNone"}
               featureCardItemsPadding={`featureCardsOne`}
-              buttonName={'Get started'}
-            />
-          </Col>
-          <Col lg={4}>
-            <FeaturePlanCard
-              headingOne={"$399"}
-              pragraphOne={"Multi Design"}
-              headingTwo={"Website Page "}
-              pragraphTwo={
-                "When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help."
-              }
-              item1={"All limited links"}
-              item2={"Own analytics platform"}
-              item3={"Chat support"}
-              item4={"Optimize hashtags"}
-              item5={"Unlimited users"}
-              fpi7={"isNone"}
-              fpi6={"isNone"}
-              fpi8={"isNone"}
-              featureCardItemsPadding={`featureCardsTwo`}
               buttonName={"Get started"}
             />
           </Col>
           <Col lg={4}>
+            <div className="featureCardMiddlePart">
+              <FeaturePlanCard
+                headingOne={"$399"}
+                pragraphOne={"Multi Design"}
+                headingTwo={"Website Page "}
+                pragraphTwo={
+                  "When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help."
+                }
+                item1={"All limited links"}
+                item2={"Own analytics platform"}
+                item3={"Chat support"}
+                item4={"Optimize hashtags"}
+                item5={"Unlimited users"}
+                fpi7={"isNone"}
+                fpi6={"isNone"}
+                fpi8={"isNone"}
+                featureCardItemsPadding={`featureCardsTwo`}
+                buttonName={"Get started"}
+              />
+            </div>
+          </Col>
+          <Col lg={4}>
             <FeaturePlanCard
-              headingOne={"$499 +"}
+              headingOne={"$499+"}
               pragraphOne={"Per Design"}
               headingTwo={"Complex Project "}
               pragraphTwo={

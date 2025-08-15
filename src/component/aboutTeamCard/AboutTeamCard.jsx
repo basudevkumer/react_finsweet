@@ -11,6 +11,7 @@ const AboutTeamCard = ({ imageName, headingChild, pragrapChild }) => {
     <div className="aboutTeamCardMain">
       <div className="aboutCardImgOverlay">
         <Image src={imageName} roundedCircle className="aboutCardImages" />
+
         <div className="aboutCardImgIcon">
           <ul className="iconElemtnts">
             <li>

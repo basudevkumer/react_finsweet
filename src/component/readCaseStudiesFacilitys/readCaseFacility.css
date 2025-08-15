@@ -1,5 +1,25 @@
-.readCaseFacility{
+.readCaseFacility {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
 }
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .readCaseDesignHeading {
+    font-size: 35px;
+    line-height: 48px;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .readCaseDesignHeading {
+    font-size: 40px;
+    line-height: 54px;
+  }
+}
+
+/* responsive for  small devices end */

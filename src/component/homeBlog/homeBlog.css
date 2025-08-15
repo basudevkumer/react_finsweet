@@ -7,3 +7,15 @@
 .buttonTextColor{
   color: #282938;
 }
+
+
+/* responsive for extra small devices start */
+  @media (min-width:320px ) and (max-width:575.99px){
+    /* add padding */
+
+    .homeBlogCard:nth-child(2){
+      padding:  25px 0 ;
+    }
+
+  }
+/* responsive for extra small devices end */

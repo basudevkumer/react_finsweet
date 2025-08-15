@@ -14,3 +14,11 @@
   border-left:0 ;
   border-right: 0;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width:320px) and (max-width:575.99px){
+  
+}
+
+/* responsive for extra small devices end */

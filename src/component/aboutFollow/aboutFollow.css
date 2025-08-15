@@ -1,3 +1,24 @@
-.aboutFollow{
+.aboutFollow {
   padding: 0 0 128px;
 }
+/* responsive for extra small devices start */
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .aboutFollow {
+    padding: 0px 0 30px;
+  }
+}
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .aboutFollow {
+    padding: 0px 0 30px;
+  }
+}
+/* responsive for  small devices end */
+/* responsive for extra small devices start */
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .aboutFollow {
+    padding: 0px 0 30px;
+  }
+}
+/* responsive for extra small devices end */

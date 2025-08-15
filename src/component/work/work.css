@@ -1,6 +1,6 @@
 .work {
   padding: 128px 0;
-  background-color: #F4F6FC;
+  background-color: #f4f6fc;
 }
 .workHeadingOne {
   color: #282938;
@@ -10,16 +10,59 @@
   padding: 16px 0;
 }
 .workButtonIcon {
-    font-size: 25px;
-    color: #2405F2;
+  font-size: 25px;
+  color: #2405f2;
 }
-.workButtonCustomEdit{
+.workButtonCustomEdit {
   display: flex;
-  justify-content:start;
+  justify-content: start;
   align-items: center;
   gap: 18px;
 }
-.cardparent{
-      --bs-gutter-y: 50px;
-
+.cardparent {
+  --bs-gutter-y: 27px;
 }
+
+/* responsive for extra small device start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .workHeadingOne {
+    font-size: 40px;
+  }
+  .cardparent {
+    margin-top: 62px !important;
+  }
+}
+
+/* responsive for extra small device end */
+/* responsive for medium device start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .cardparent {
+    margin-top: 62px !important;
+  }
+}
+/* responsive for medium  device end */
+/* responsive for large device start */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .workHeadingOne {
+    font-size: 42px;
+  }
+  .cardparent {
+    margin-top: 0px !important;
+    --bs-gutter-y: 20px !important;
+  }
+}
+
+/* responsive for large  device end */
+/* responsive for extra large device start */
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  .cardparent {
+    margin-top: 0px !important;
+    --bs-gutter-x: 55px !important;
+  }
+}
+
+/* responsive for extra large  device end */

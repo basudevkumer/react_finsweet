@@ -12,3 +12,46 @@
   border: 2px solid rgba(40, 41, 56, 0.267);
   margin-top: 32px;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .readCaseDesignMain {
+    padding: 79px 0 80px;
+  }
+  .readCaseDesignHeading{
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .readCaseMiddlePart{
+    padding: 30px 0;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .readCaseDesignMain {
+    padding: 90px 0 90px;
+  }
+  .readCaseDesignHeading{
+    font-size: 40px;
+    line-height: 54px;
+  }
+  .readCaseMiddlePart{
+    padding: 30px 0;
+  }
+}
+
+/* responsive for  small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+  .readCaseMiddlePart{
+    padding: 30px 0;
+  }
+}
+
+/* responsive for medium devices end */

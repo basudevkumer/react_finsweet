@@ -40,7 +40,7 @@ const ReadCaseDesign = () => {
             </div>
           </Col>
           <Col lg={{ span: 2, offset: 1 }}>
-            <div>
+            <div className="readCaseMiddlePart">
               <ReadCaseFacility
                 heading={"Product Design"}
                 pragraph={"Service"}

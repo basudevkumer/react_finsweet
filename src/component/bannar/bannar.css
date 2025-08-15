@@ -33,7 +33,6 @@
 }
 .bannarButtonIcon {
   font-size: 25px;
-  
 }
 .bannarImgMain {
   width: 100%;
@@ -43,6 +42,130 @@
   width: 100%;
   height: 88%;
 }
-.bannarHeading{
+.bannarHeading {
   color: #fff;
 }
+
+/* responsive for extra small device start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .bannarHeading {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .bannarMain {
+    padding: 70px 0;
+  }
+  .bannarbtnOne {
+    padding: 4px 18px;
+    white-space: nowrap;
+  }
+  .bannarButtonMainTwo {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+  }
+  .homebuttonMain {
+    column-gap: 21px;
+  }
+  .bannarbtnTwo {
+    padding-right: 8px;
+  }
+  .bannarImgMain {
+    margin-top: 66px;
+  }
+  .bannarButtonIcon {
+    font-size: 21px;
+  }
+}
+
+/* responsive for extra small device end */
+/* responsive for  small device start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .bannarHeading {
+    font-size: 47px;
+    line-height: 63px;
+  }
+  .bannarMain {
+    padding: 70px 0;
+  }
+  .bannarbtnOne {
+    padding: 10px 37px;
+    white-space: nowrap;
+  }
+  .bannarButtonMainTwo {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+  }
+  .homebuttonMain {
+    column-gap: 0;
+    justify-content: space-between;
+  }
+  .bannarbtnTwo {
+    padding-right: 19px;
+  }
+  .bannarImgMain {
+    margin-top: 66px;
+  }
+  .bannarButtonIcon {
+    font-size: 25px;
+  }
+}
+
+/* responsive for  small device end */
+/* responsive for  medium device start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .bannarHeading {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .bannarbtnOne {
+    padding: 13px 42px;
+    white-space: nowrap;
+  }
+  .bannarbtnTwo {
+    white-space: nowrap;
+  }
+  .bannarButtonMainTwo {
+    display: flex;
+    align-items: center;
+  }
+  .bannarChildImg {
+    height: 68%;
+  }
+  .bannarMain {
+    padding: 100px 0;
+  }
+}
+
+/* responsive for  medium device end */
+/* responsive for  large device start */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .bannarHeading {
+	font-size: 49px;
+	line-height: 70px;
+}
+ .bannarbtnOne {
+	padding: 15px 65px;
+	white-space: nowrap;
+}
+  .bannarbtnTwo {
+    white-space: nowrap;
+  }
+  .bannarButtonMainTwo {
+    display: flex;
+    align-items: center;
+  }
+  .bannarChildImg {
+    height: 73%;
+  }
+  .bannarMain {
+    padding: 100px 0;
+  }
+}
+
+/* responsive for  large device end */

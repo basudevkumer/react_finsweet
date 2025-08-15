@@ -1,3 +1,69 @@
-.customPragraphEdit{
+.customPragraphEdit {
   padding-top: 17px;
 }
+
+/* responsive for extra small device start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  /* client heading  part */
+  .customHeadingEdit {
+    font-size: 33px;
+    line-height: 47px;
+  }
+  /* client pragraph  part */
+  
+}
+
+/* responsive for extra small device end */
+/* responsive for small device start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /* client heading  part */
+  .customHeadingEdit {
+    text-align: center;
+    width: 79%;
+    margin: 0 auto;
+    line-height: 50px;
+  }
+  /* client pragraph  part */
+  .customPragraphEdit {
+    text-align: start;
+    margin: 0 auto;
+    width: 400px;
+  }
+}
+
+/* responsive for small device end */
+/* responsive for medium device start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* client heading  part */
+  .customHeadingEdit {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px;
+  }
+
+  /* client pragraph  part */
+
+  .customPragraphEdit {
+    text-align: start;
+    margin: 0 auto;
+    width: 514px;
+  }
+}
+
+/* responsive for medium device end */
+/* responsive for large device start */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* client heading  part */
+  .customHeadingEdit {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  /* client pragraph  part */
+}
+
+/* responsive for large device end */

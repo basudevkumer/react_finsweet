@@ -7,5 +7,76 @@
 }
 .benifitCardMain {
   padding: 48px 32px 48px 48px;
-  background-color: #F4F6FC;
+  background-color: #f4f6fc;
 }
+
+/* responsive for extra small devices small */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  /* heading */
+  .benifitTopHeading h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  /* padding */
+  .aboutBenifit {
+    padding: 55px 0 48px;
+  }
+  .aboutBenifitCardMiddles {
+    margin: 18px 0;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /* heading */
+  .benifitTopHeading h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  /* padding */
+  .aboutBenifit {
+    padding: 90px 0 48px;
+  }
+  .aboutBenifitCardMiddles {
+    margin: 18px 0;
+  }
+}
+
+/* responsive for  small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* heading */
+
+  /* padding */
+  .aboutBenifit {
+    padding: 90px 0 48px;
+  }
+  .aboutBenifitCardMiddles {
+    margin: 18px 0;
+  }
+  .benifitTopHeading h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+/* responsive for  medium devices end */
+/* responsive for  large devices start */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* heading */
+
+  /* padding */
+  .aboutBenifit {
+    padding: 70px 0 48px;
+  }
+  .benifitTopHeading h2 {
+    font-size: 44px;
+  }
+}
+
+/* responsive for  large devices end */

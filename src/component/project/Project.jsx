@@ -40,8 +40,10 @@ const Project = () => {
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                   aliquam{" "}
                 </p>
-                <Button children={"View portfolio"} textColor={"#FCD980"} />
-                <GoArrowRight className="projectCardIcon" />
+                <div className="bigCardButtomMains">
+                  <Button children={"View portfolio"} textColor={"#FCD980"} />
+                  <GoArrowRight className="projectCardIcon" />
+                </div>
               </div>
             </div>
           </Col>

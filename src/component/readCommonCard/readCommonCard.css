@@ -14,6 +14,40 @@
   flex-direction: column;
   row-gap: 16px;
 }
-.cardMain{
- border: 0;
+.cardMain {
+  border: 0;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .ReadCommonCardFirstHeading {
+    font-size: 29px;
+    line-height: 40px;
+  }
+ 
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .ReadCommonCardFirstHeading {
+    font-size: 33px;
+    line-height: 55px;
+  }
+  
+}
+
+/* responsive for  small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .ReadCommonCardFirstHeading {
+    font-size: 37px;
+    line-height: 48px;
+  }
+ 
+}
+
+/* responsive for  medium devices end */

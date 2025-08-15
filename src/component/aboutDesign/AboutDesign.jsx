@@ -13,7 +13,7 @@ const AboutDesign = () => {
               <h3 className="heading1 aboutDesignHeading">
                 Our designs solve problems
               </h3>
-              <p className={`pragraph `}>
+              <p className={`pragraph  pragraphOther`}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam.

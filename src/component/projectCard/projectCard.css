@@ -30,3 +30,76 @@
   color: #fcd980;
   font-size: 25px;
 }
+
+/* responsive for extra Small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .customProjectOverlay {
+    left: 0;
+    padding: 68px 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .projectButton {
+    padding-right: 16px;
+  }
+}
+
+/* responsive for extra Small devices end */
+/* responsive for  Small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .customProjectOverlay {
+    left: 0;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .projectButton {
+    padding-right: 16px;
+  }
+}
+
+/* responsive for  Small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .customProjectOverlay {
+    left: 0;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .projectButton {
+    padding-right: 16px;
+  }
+}
+
+/* responsive for  medium devices end */
+/* responsive for  large devices start */
+
+@media (min-width:992px) and (max-width:1199.99px){
+   .customProjectOverlay {
+    padding: 0 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* responsive for  large devices end */
+/* responsive for extra large devices start */
+
+@media (min-width:1200px) and (max-width:1399.99px){
+   .customProjectOverlay {
+    padding: 0 48px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* responsive for extra large devices end */

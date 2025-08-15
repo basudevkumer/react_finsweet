@@ -4,9 +4,7 @@ import "./building.css";
 import Button from "../button/Button";
 import { HiArrowLongRight } from "react-icons/hi2";
 
-
 const Building = () => {
-  
   return (
     <section className="building">
       <Container>
@@ -50,10 +48,18 @@ const Building = () => {
                   className="commonInputCss"
                 />
               </div>
-              <Button children={"Send an Inquiry"} textColor={"#1B1C2B"} className="buildingButton pragraph"/>
+              <Button
+                children={"Send an Inquiry"}
+                textColor={"#1B1C2B"}
+                className="buildingButton pragraph"
+              />
               <div className="iconEdit">
-                <Button children={"Send an Inquiry"}  className="buildingButtonTwo pragraph" textColor={"#fff"}/>
-              <HiArrowLongRight className="buildingIcon"/>
+                <Button
+                  children={"Send an Inquiry"}
+                  className="buildingButtonTwo pragraph"
+                  textColor={"#fff"}
+                />
+                <HiArrowLongRight className="buildingIcon" />
               </div>
             </div>
           </Col>

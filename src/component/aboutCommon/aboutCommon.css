@@ -1,3 +1,33 @@
-.aboutCommonHeading{
-  padding:10px 0 35px;
+.aboutCommonHeading {
+  padding: 10px 0 35px;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  /* heading  */
+  .aboutCommonHeading {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  /* row gutter gap */
+  .aboutGoalRow {
+    --bs-gutter-y: 16px;
+  }
+ 
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /* heading  */
+  .aboutCommonHeading {
+    font-size: 34px;
+  }
+  .aboutGoalRow {
+    /* --bs-gutter-y: 16px; */
+  }
+}
+
+/* responsive for  small devices end */

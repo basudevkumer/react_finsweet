@@ -1,3 +1,4 @@
+/* ===== Base Styles ===== */
 .footer {
   background-color: #1c1e53;
   padding: 96px 0;
@@ -8,11 +9,12 @@
   color: #fff;
   padding-top: 23px;
 }
-.footerHeading {
+.footerHeading,
+.footerHeadingSecond,
+.icon li a {
   color: #fff;
 }
 .footerHeadingSecond {
-  color: #fff;
   padding: 14px 0 28px;
 }
 .icon {
@@ -20,12 +22,11 @@
   column-gap: 26px;
 }
 .icon li a {
-  color: #fff;
   font-size: 25px !important;
 }
 .childOne {
   color: #000;
-  font: 18px;
+  font-size: 18px;
   font-weight: 500;
 }
 .childTwo {
@@ -42,12 +43,115 @@
   top: 100%;
   transform: translateY(-100%);
 }
-.footerLastPart{
+.footerLastPart {
   padding: 32px 0;
 }
-
-.footerPolicy{
+.footerPolicy {
   font-size: 20px;
   font-weight: 600;
   margin-left: 8px;
+}
+
+/* ===== Extra Small Devices (320px–575px) ===== */
+@media (max-width: 575px) {
+  .childOne {
+    font-size: 13px;
+  }
+  .childTwo {
+    font-size: 12px;
+  }
+  .footerBox {
+    padding: 13px;
+    gap: 11.5px;
+  }
+  .icon li a {
+    font-size: 22px !important;
+  }
+  .footerHeading {
+    margin-top: 21px;
+  }
+  .footerNav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .footerPolicy {
+    margin-left: 0;
+  }
+  .footerNavChild {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+}
+
+/* ===== Small Devices (576px–767px) ===== */
+@media (min-width: 576px) and (max-width: 767px) {
+  .childOne {
+    font-size: 13px;
+  }
+  .childTwo {
+    font-size: 12px;
+  }
+  .footerBox {
+    padding: 13px;
+    gap: 11.5px;
+  }
+  .icon li a {
+    font-size: 22px !important;
+  }
+  .footerHeading {
+    margin-top: 21px;
+  }
+  .footerNav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .footerPolicy {
+    margin-left: 0;
+  }
+  .footerNavChild {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+}
+
+/* ===== Medium Devices (768px–991px) ===== */
+@media (min-width: 768px) and (max-width: 991px) {
+  .childOne {
+    font-size: 13px;
+  }
+  .childTwo {
+    font-size: 12px;
+  }
+  .footerBox {
+    padding: 13px;
+    gap: 11.5px;
+  }
+  .icon li a {
+    font-size: 22px !important;
+  }
+  .footerPragraphFirst {
+    width: 95% !important;
+  }
+  .footerRowOne {
+    flex-wrap: nowrap !important;
+  }
+  .footerPart1 {
+    --bs-gutter-x: 0px;
+    margin-top: 10px;
+  }
+  .footerRowOne > * {
+    width: 50%;
+    max-width: 50%;
+  }
+  .footerNav {
+    align-items: start;
+  }
+  .footerPolicy {
+	
+	margin-left: 0px;
+}
 }

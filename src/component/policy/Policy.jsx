@@ -9,7 +9,7 @@ const Policy = () => {
         <Row>
           <Col lg={{ span: 6, offset: 3 }}>
             <div className="policyTopPart">
-              <h2 className="heading2">Privacy Policy</h2>
+              <h2 className="heading2 policyTopPartHeadings">Privacy Policy</h2>
               <p className="pragraph">
                 When you’re ready to go beyond prototyping in Figma, Webflow’s
                 ready to help you bring your

@@ -7,7 +7,7 @@ const AboutSlider = () => {
   return (
     <section className="aboutslider">
       <Container>
-        <Row>
+        <Row className="aboutsliderRow">
           <Col lg={{ span: 2 }}>
             <div className="aboutUsers">
               <h3 className="heading3">100.000+</h3>

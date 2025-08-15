@@ -9,7 +9,7 @@ const ContactUS = () => {
         <Row>
           <Col lg={{ span: 6, offset: 3 }}>
             <div className="contactUsTopPart">
-              <h2 className=" heading2">Contact Us</h2>
+              <h2 className=" heading2 contactUsTopPartHeading">Contact Us</h2>
               <p className="pragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore.

@@ -13,7 +13,7 @@ const Feature = () => {
   useEffect(() => {
     Aos.init({
       duration: 1000,
-      once:false
+      once: false,
     });
   }, []);
   return (
@@ -21,12 +21,7 @@ const Feature = () => {
       <Container>
         <Row>
           <Col lg={12}>
-            <div
-              className="featureTopPart"
-            
-                data-aos="fade-up"
-               
-            >
+            <div className="featureTopPart" data-aos="fade-up">
               <p className="pragraph featurePragraph">Features</p>
               <h2 className="heading2 featureHeading">
                 Design that solves problems, one product at a time
@@ -35,7 +30,7 @@ const Feature = () => {
           </Col>
         </Row>
         <Row className="featureCardRow">
-          <Col lg={4}>
+          <Col   xs={12} sm={12} md={6} lg={4}    >
             <CommonCard
               cardIcon={ImageOne}
               cardHeadingChild={"Uses Client First"}
@@ -44,7 +39,7 @@ const Feature = () => {
               }
             />
           </Col>
-          <Col lg={4}>
+          <Col   xs={12} sm={12} md={6} lg={4}    >
             <CommonCard
               cardIcon={ImageTwo}
               cardHeadingChild={"Two Free Revision Round"}
@@ -53,7 +48,7 @@ const Feature = () => {
               }
             />
           </Col>
-          <Col lg={4}>
+          <Col   xs={12} sm={12} md={6} lg={4}    >
             <CommonCard
               cardIcon={ImageTree}
               cardHeadingChild={"Two Free Revision Round"}
@@ -62,7 +57,7 @@ const Feature = () => {
               }
             />
           </Col>
-          <Col lg={4}>
+          <Col   xs={12} sm={12} md={6} lg={4}    >
             <CommonCard
               cardIcon={ImageFour}
               cardHeadingChild={"Template Customization"}
@@ -71,7 +66,7 @@ const Feature = () => {
               }
             />
           </Col>
-          <Col lg={4}>
+          <Col   xs={12} sm={12} md={6} lg={4}    >
             <CommonCard
               cardIcon={ImageFive}
               cardHeadingChild={"Quick Delivery"}
@@ -80,7 +75,7 @@ const Feature = () => {
               }
             />
           </Col>
-          <Col lg={4}>
+          <Col   xs={12} sm={12} md={6} lg={4}    >
             <CommonCard
               cardIcon={ImageSix}
               cardHeadingChild={"Hands-on approach"}

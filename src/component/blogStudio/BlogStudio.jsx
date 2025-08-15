@@ -10,7 +10,7 @@ const BlogStudio = () => {
         <Row>
           <Col lg={{ span:10, offset: 1 }}>
            <div className="blogStudioTopPart">
-             <h2 className="heading2">
+             <h2 className="heading2 blogPagePartHeading">
               A UX Case Study on Creating a Studious Environment for Students
             </h2>
               <p className="pragraph">Posted on 27th January 2021</p>

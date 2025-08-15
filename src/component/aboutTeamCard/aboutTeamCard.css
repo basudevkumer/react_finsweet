@@ -10,7 +10,6 @@
   text-align: center;
 }
 .aboutCardImgOverlay {
-
   width: 168px;
   height: 168px;
   border-radius: 50%;
@@ -19,7 +18,7 @@
 }
 .aboutCardImgIcon {
   position: absolute;
-  background: linear-gradient(#ffffff00,#5239FA) ;
+  background: linear-gradient(#ffffff00, #5239fa);
   width: 170px;
   height: 170px;
   /* border-radius: 50%; */
@@ -33,21 +32,82 @@
 .iconElemtnts {
   display: flex;
   gap: 16px;
- 
+
   margin: 112px 30px 24px 48px;
 }
-.iconElemtnts li  {
-  
+.iconElemtnts li {
 }
 .iconElemtnts li a {
   color: #fff;
-  
 }
-.aboutTeamCardMain{
+.aboutTeamCardMain {
   padding: 48px 64px 32px;
   background: #fff;
-
 }
-.aboutTeamCardPragraph{
+.aboutTeamCardPragraph {
   text-align: center;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .aboutCardImgOverlay {
+    margin: auto;
+  }
+  .aCardMains2 {
+    margin: 25px 0;
+  }
+  .aCardMains4 {
+    margin-top: 25px;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .aboutCardImgOverlay {
+    margin: auto;
+  }
+  .aCardMains2 {
+    margin: 25px 0;
+  }
+  .aCardMains4 {
+    margin-top: 25px;
+  }
+}
+
+/* responsive for small devices end */
+/* responsive for medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .aCardMains3 {
+    margin-top: 25px;
+  }
+  .aCardMains4 {
+    margin-top: 25px;
+  }
+  .aboutCardImgOverlay {
+    margin: auto;
+  }
+}
+
+/* responsive for medium devices end */
+/* responsive for large devices start */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .aboutTeamCardMain {
+    padding: 48px 23px 32px;
+  }
+}
+
+/* responsive for large devices end */
+/* responsive for extra large devices start */
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  .aboutTeamCardMain {
+    padding: 48px 44px 32px;
+  }
+}
+
+/* responsive for extra large devices end */

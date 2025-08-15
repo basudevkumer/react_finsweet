@@ -1,3 +1,11 @@
 .featureBenfitPadding{
   padding:  0 0 128px;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width:320px) and (max-width:575.99px){
+  
+}
+
+/* responsive for extra small devices end */

@@ -66,28 +66,150 @@
   text-align: center;
   border-radius: 41px;
   margin: 39px 0 28px;
-  color: #1B1C2B;
+  color: #1b1c2b;
   transition: 0.3s ease-in-out;
 }
-.buildingGutter{
-      --bs-gutter-x: 0;
+.buildingGutter {
+  --bs-gutter-x: 0;
 }
 
 .buildingButton:hover {
   background-color: transparent;
-  border-color: #fff; 
+  border-color: #fff;
   background: #fff;
-
 }
 
-.buildingIcon{
+.buildingIcon {
   color: #fff;
   font-size: 24px;
 }
-.iconEdit{
+.iconEdit {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:20px ;
+  gap: 20px;
   margin-bottom: 7px;
 }
+
+/* responsive for extra  small devices  start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  /* building bannar image related css */
+  .buldingChildOverlay {
+    left: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .buildingHeading {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  /* input field related css  */
+  .buildingInput {
+    padding: 0px 20px 35px;
+  }
+  .buildingButton:hover {
+    background-color: #fcd980;
+    color: #1b1c2b;
+  }
+}
+/* responsive for extra  small devices  end */
+/* responsive for   small devices  start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /* building bannar image related css */
+  .buldingChildOverlay {
+    left: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* input field related css  */
+  .buildingInput {
+    padding: 0px 20px 35px;
+  }
+  .buildingButton:hover {
+    background-color: #fcd980;
+    color: #1b1c2b;
+  }
+}
+/* responsive for   small devices  end */
+/* responsive for  medium devices  start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* building bannar image related css */
+  .buldingChildOverlay {
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* input field related css  */
+  .buildingInput {
+    padding: 0px 96px 48px;
+  }
+  .buildingButton:hover {
+    background-color: #fcd980;
+    color: #1b1c2b;
+  }
+}
+/* responsive for medium devices  end */
+/* responsive for large devices  start */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* building bannar image related css */
+  .buldingImage {
+    height: 100%;
+  }
+  .buildingOverlayMain {
+    height: 100%;
+  }
+  .buldingChildOverlay {
+    padding-left: 50px;
+    padding-top: 324px;
+  }
+
+  /* input field related css  */
+  .buildingHeading {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+/* responsive for large devices  end */
+/* responsive for extra  large  devices  end */
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  /* building bannar image related css */
+  .buldingImage {
+    height: 100%;
+  }
+  .buildingOverlayMain {
+    height: 100%;
+  }
+  .buldingChildOverlay {
+    padding: 190px 96px 0;
+  }
+
+  /* input field related css  */
+  .buildingHeading {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+/* responsive for extra large devices  end */
+/* responsive for extra extra  large  devices  end */
+@media (min-width: 1400px) {
+  /* building bannar image related css */
+  .buldingImage {
+    height: 100%;
+  }
+  .buildingOverlayMain {
+    height: 100%;
+  }
+
+  /* input field related css  */
+}
+/* responsive for extra extra large devices  end */

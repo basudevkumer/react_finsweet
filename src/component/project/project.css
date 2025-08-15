@@ -8,9 +8,7 @@
   color: #282938;
   font-size: 20px;
 }
-.projectButton {
-  padding-right: 16px;
-}
+
 .project {
   padding: 128px 0;
 }
@@ -29,24 +27,169 @@
   height: 100%;
   background: linear-gradient(#1c1e536c, #1c1e53);
   transition: 0.5s all linear;
-    padding: 310px 40px 76px;
+  padding: 310px 40px 76px;
 }
 .bigCard:hover .overlayChild {
   left: 0 !important;
 }
 
-.projectCardPragraph{
-color: #fff;  
-padding: 16px 0 40px;
+.projectCardPragraph {
+  color: #fff;
+  padding: 16px 0 40px;
 }
-.projectCardHeading{
+.projectCardHeading {
   color: #fff;
 }
-.projectCardIcon{
-   color: #FCD980;
-   font-size: 25px;
-   margin-left: 15px;
+.projectCardIcon {
+  color: #fcd980;
+  font-size: 25px;
+  margin-left: 15px;
 }
-.smallCardOne{
+.smallCardOne {
   margin-bottom: 37px;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .projectElementMain {
+    flex-direction: column;
+    align-items: start;
+  }
+  .projectHeading {
+    font-size: 32px;
+  }
+
+  .projectCardHeading {
+    line-height: 29px;
+  }
+  .projectCardPragraph {
+    padding: 3px 0 5px;
+  }
+
+  .overlayChild {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 13px 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .smallCardOne {
+    margin-top: 37px;
+  }
+  .project {
+    padding: 64px 0;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .projectElementMain {
+    align-items: center;
+  }
+  .projectHeading {
+    font-size: 41px;
+  }
+  .projectCardHeading {
+    line-height: 29px;
+  }
+  .projectCardPragraph {
+    padding: 16px 0 20px;
+  }
+
+  .overlayChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .smallCardOne {
+    margin-top: 37px;
+  }
+  .project {
+    padding: 60px 0;
+  }
+}
+
+/* responsive for  small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .projectElementMain {
+    align-items: center;
+  }
+  .projectHeading {
+    font-size: 34px;
+  }
+  .projectCardHeading {
+    line-height: 29px;
+  }
+  .projectCardPragraph {
+    padding: 16px 0 20px;
+  }
+
+  .overlayChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .smallCardOne {
+    margin-top: 37px;
+  }
+  .project {
+    padding: 60px 0;
+  }
+}
+
+/* responsive for  medium devices end */
+/* responsive for  large devices start */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .overlayChild {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  .projectHeading {
+    font-size: 41px;
+  }
+  .smallCardOne {
+    margin-bottom: 27px;
+  }
+}
+
+/* responsive for  large devices end */
+/* responsive for  extra large devices start */
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  .overlayChild {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 36px;
+  }
+  .projectHeading {
+    font-size: 44px;
+  }
+  .smallCardOne {
+    margin-bottom: 30.5px;
+  }
+}
+
+/* responsive for extra large devices end */

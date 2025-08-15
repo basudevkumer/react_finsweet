@@ -1,7 +1,33 @@
-.workCardText{
-  color: 282938;
+.workCardText {
   padding: 16px 0 9px;
 }
-.workCardPragraph{
-   color: 282938;
+.workCardPragraph {
+  color: 282938;
 }
+
+
+/* responsive for extra small devices start */
+
+
+/* responsive for extra small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  
+  .workCardPragraph {
+    width: auto;
+  }
+  
+}
+/* responsive for medium devices end */
+/* responsive for  large devices start */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+ 
+  .workCardPragraph {
+    width: auto;
+  }
+  
+}
+/* responsive for large devices end */
+

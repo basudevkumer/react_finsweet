@@ -13,7 +13,7 @@ import HomeBlog from "../component/homeBlog/HomeBlog";
 const  Home = () => {
   return (
     <>
-      <Bannar  bannarHeadingChild={"Building stellar websites for early startups"} bannarPragraphChild={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."}  buttonTextChildOne={"View our work"} buttonTextChildTwo={"View Pricing"} bannarImageName={BannarImg}/>
+      <Bannar  bannarHeadingChild={"Building stellar websites for early startups"} bannarPragraphChild={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."}  buttonTextChildOne={"View our work"} buttonTextChildTwo={"View Pricing"} bannarImageName={BannarImg} bannarButtonMain={"bannarButtonMainTwo"}/>
       <Work/>
       <Project/>
       <Feature/>

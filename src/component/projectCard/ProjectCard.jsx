@@ -3,16 +3,26 @@ import "./projectCard.css";
 import Button from "../button/Button";
 import { GoArrowRight } from "react-icons/go";
 
-const ProjectCard = ({ projectCardImgName,projectCardButtonTwoText ,projectCardHeadingTwo }) => {
+const ProjectCard = ({
+  projectCardImgName,
+  projectCardButtonTwoText,
+  projectCardHeadingTwo,
+}) => {
   return (
     <div className="projectCardCompntMain">
       <Image src={projectCardImgName} className="projectCardImgEdit" />
       <div className="customProjectOverlay">
         <h6 className="heading6 customProjectHeading">
-           {projectCardHeadingTwo}
+          {projectCardHeadingTwo}
         </h6>
-        <Button children={projectCardButtonTwoText} textColor={"#FCD980"} className="projectButton" />
-        <GoArrowRight className="projectCardIconTwo" />
+        <div className="projectCardButtonsElement">
+          <Button
+            children={projectCardButtonTwoText}
+            textColor={"#FCD980"}
+            className="projectButton"
+          />
+          <GoArrowRight className="projectCardIconTwo" />
+        </div>
       </div>
     </div>
   );

@@ -10,30 +10,35 @@ const AboutMission = () => {
       <Container>
         <Row>
           <Col lg={{ span: 6 }}>
-            <AboutCommon
-              heading={"Inspire, Innovate, Share"}
-              pragraphOne={"Our Mission "}
-              pragraphTwo={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-              }
-            />
+            <div className="aboutMissionOne">
+              <AboutCommon
+                heading={"Inspire, Innovate, Share"}
+                pragraphOne={"Our Mission "}
+                pragraphTwo={
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+              />
+            </div>
           </Col>
+
           <Col lg={{ span: 5, offset: 1 }}>
             <Image src={MissionImgOne} className="commonImages" />
           </Col>
         </Row>
         <Row className="missionInitialEdit">
-          <Col lg={{ span:5}}>
+          <Col lg={{ span: 5 }}>
             <Image src={MissionImgTwo} className="commonImages" />
           </Col>
           <Col lg={{ span: 6, offset: 1 }}>
-            <AboutCommon
-              heading={"Laser focus"}
-              pragraphOne={"Our Vision"}
-              pragraphTwo={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-              }
-            />
+            <div className="aboutMissionTwo">
+              <AboutCommon
+                heading={"Laser focus"}
+                pragraphOne={"Our Vision"}
+                pragraphTwo={
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+              />
+            </div>
           </Col>
         </Row>
       </Container>

@@ -12,6 +12,7 @@
 .workTemplateListITems li a {
   color: #282938;
   font-weight: 500;
+  font-size: 18px;
 }
 .workTemplateListITems li:hover a {
   color: #2405f2;
@@ -23,3 +24,13 @@
   --bs-gutter-x: 46px;
   --bs-gutter-y: 64px;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .workTemplateListITems li a {
+    font-size: 15px;
+  }
+}
+
+/* responsive for extra small devices end */

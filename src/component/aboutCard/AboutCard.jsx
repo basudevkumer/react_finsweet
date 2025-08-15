@@ -20,33 +20,42 @@ const AboutCard = () => {
           </Col>
         </Row>
         <Row>
-          <Col lg={3}>
-            <AboutTeamCard
-              imageName={TeamImgOne}
-              headingChild={"John Smith"}
-              pragrapChild={"CEO"}
-            />
+          <Col lg={3} md={6}>
+            <div className="aCardMains1">
+              <AboutTeamCard
+                imageName={TeamImgOne}
+                headingChild={"John Smith"}
+                pragrapChild={"CEO"}
+              />
+            </div>
           </Col>
-          <Col lg={3}>
-            <AboutTeamCard
-              imageName={TeamImgTwo}
-              headingChild={"Simon Adams"}
-              pragrapChild={"CTO"}
-            />
+          <Col lg={3} md={6}>
+            <div className="aCardMains2">
+              <AboutTeamCard
+                imageName={TeamImgTwo}
+                headingChild={"Simon Adams"}
+                pragrapChild={"CTO"}
+              />
+            </div>
           </Col>
-          <Col lg={3}>
-            <AboutTeamCard
-              imageName={TeamImgThree}
-              headingChild={"Paul Jones"}
-              pragrapChild={"Design Lead"}
-            />
+          <Col lg={3} md={6}>
+            <div className="aCardMains3">
+              <AboutTeamCard
+                imageName={TeamImgThree}
+                headingChild={"Paul Jones"}
+                pragrapChild={"Design Lead"}
+              />
+            </div>
           </Col>
-          <Col lg={3}>
-            <AboutTeamCard
-              imageName={TeamImgFour}
-              headingChild={"JSara Hardin"}
-              pragrapChild={"Project Manager"}
-            />
+
+          <Col lg={3} md={6}>
+            <div className="aCardMains4">
+              <AboutTeamCard
+                imageName={TeamImgFour}
+                headingChild={"JSara Hardin"}
+                pragrapChild={"Project Manager"}
+              />
+            </div>
           </Col>
         </Row>
       </Container>

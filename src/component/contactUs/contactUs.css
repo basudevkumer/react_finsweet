@@ -21,16 +21,47 @@
   --bs-gutter-x: 32px;
   --bs-gutter-y: 24px;
 }
-.inputTitleName{
+.inputTitleName {
   font-weight: 500;
   font-size: 18px;
 }
-.contactPagesButtonInside{
+.contactPagesButtonInside {
   padding: 16px 64px;
   background: #282938;
   color: #fff;
   border-radius: 41px;
 }
-.contactPagesButton{
+.contactPagesButton {
   margin-top: 32px;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .contactUsMain {
+    padding: 75px 0 50px;
+  }
+  .contactUsTopPartHeading {
+    font-size: 37px;
+  }
+  .contactInput {
+    padding: 30px 10px;
+  }
+  .inputFeilds {
+    padding: 12px 32px;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+}
+
+/* responsive for  small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+}
+
+/* responsive for  medium devices end */

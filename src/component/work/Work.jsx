@@ -32,9 +32,10 @@ const Work = () => {
           </Col>
           <Col lg={{ span: 6, offset: 1 }}>
             {" "}
-            <Row className="cardparent">
+            <Row className="cardparent " >
               <WorkCard
-                col={6}
+                
+                
                 imgname={CardOne}
                 headingChildren={"Strategy"}
                 pragraphChildren={
@@ -42,7 +43,7 @@ const Work = () => {
                 }
               />
               <WorkCard
-                col={6}
+                
                 imgname={CardOne}
                 headingChildren={"Strategy"}
                 pragraphChildren={
@@ -50,7 +51,7 @@ const Work = () => {
                 }
               />
               <WorkCard
-                col={6}
+                
                 imgname={CardOne}
                 headingChildren={"Strategy"}
                 pragraphChildren={
@@ -59,7 +60,7 @@ const Work = () => {
                 
               />
               <WorkCard
-                col={6}
+                
                 imgname={CardOne}
                 headingChildren={"Strategy"}
                 pragraphChildren={

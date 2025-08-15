@@ -1,10 +1,10 @@
 import { Col, Image } from "react-bootstrap";
 import "./workcard.css"
 
-const WorkCard = ({ col,imgname,headingChildren,pragraphChildren }) => {
+const WorkCard = ({ imgname,headingChildren,pragraphChildren }) => {
   return (
-    <Col lg={col}>
-      <div className="">
+    <Col lg={6}  md={6} sm={6}>
+      <div className="workCardsElements">
       <Image src={imgname}/>
       <h5 className="heading5 workCardText"  >{headingChildren}</h5>
       <p className=" pragraph workCardPragraph">{pragraphChildren}</p>

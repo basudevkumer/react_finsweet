@@ -18,8 +18,7 @@
   flex-direction: column;
   gap: 15px;
 }
-.featurePlanCardMain {
-}
+
 .featureButtonParent {
   text-align: center;
 }
@@ -53,16 +52,131 @@
 .featurePlanCardMain:hover .featureCardHeadingMoney * {
   color: #fff;
 }
-.featurePlanCardMain:hover .featureMiddleHeading   {
+.featurePlanCardMain:hover .featureMiddleHeading {
   color: #fff;
 }
-.featurePlanCardMain:hover .featureItem   {
-  color: #fff ;
+.featurePlanCardMain:hover .featureItem {
+  color: #fff;
 }
-.featurePlanCardMain:hover .fpp   {
-  color: #fff ;
+.featurePlanCardMain:hover .pragraphOne {
+  color: #fcd980;
 }
- 
-.featurePlanCardMain *{
+.featurePlanCardMain:hover .fpp {
+  color: #fff;
+}
+
+.featurePlanCardMain * {
   transition: 0.5s ease-in-out;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .pragraphOne {
+    font-size: 14px !important;
+    white-space: nowrap;
+  }
+  .featureItem {
+    white-space: nowrap;
+  }
+
+  .featurePlanCardMain {
+    padding: 55px 0px;
+    background-color: #1c1e53;
+  }
+  .featurePlanCardMain * {
+    color: #fff;
+  }
+  .featurePlanCardMain .pragraphOne {
+    color: #fcd980 !important;
+  }
+  .featurePlanCardMain .featureButton {
+    background: #fcd980;
+    color: #282938;
+  }
+  .featureButtonParent {
+    text-align: start;
+  }
+}
+
+/* responsive for extra small devices end */
+
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .pragraphOne {
+    font-size: 14px !important;
+    white-space: nowrap;
+  }
+  .featureItem {
+    white-space: nowrap;
+  }
+
+  .featurePlanCardMain {
+    /* padding: 55px 0px; */
+    background-color: #1c1e53;
+  }
+  .featurePlanCardMain * {
+    color: #fff;
+  }
+  .featurePlanCardMain .pragraphOne {
+    color: #fcd980 !important;
+  }
+  .featurePlanCardMain .featureButton {
+    background: #fcd980;
+    color: #282938;
+  }
+  .featureButtonParent {
+    text-align: start;
+  }
+}
+
+/* responsive for  small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .pragraphOne {
+    font-size: 14px !important;
+    white-space: nowrap;
+  }
+  .featureItem {
+    white-space: nowrap;
+  }
+
+  .featurePlanCardMain {
+    background-color: #1c1e53;
+  }
+  .featurePlanCardMain * {
+    color: #fff;
+  }
+  .featurePlanCardMain .pragraphOne {
+    color: #fcd980 !important;
+  }
+  .featurePlanCardMain .featureButton {
+    background: #fcd980;
+    color: #282938;
+  }
+  .featureButtonParent {
+    text-align: start;
+  }
+}
+
+/* responsive for  medium devices end */
+/* responsive for  large devices start */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .pragraphOne {
+    
+    white-space: nowrap;
+  }
+  .featureItem {
+    white-space: nowrap;
+  }
+
+  .featurePlanCardMain {
+    padding:55px 0;
+
+  }
+}
+
+/* responsive for  large devices end */

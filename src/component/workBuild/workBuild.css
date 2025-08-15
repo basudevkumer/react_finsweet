@@ -1,25 +1,64 @@
-.workBuldButton:hover{
-  background: #1C1E53;
+.workBuldButton:hover {
+  background: #1c1e53;
   color: #fff;
 }
-.workBuldButton{
+.workBuldButton {
   padding: 16px 67px;
-  background: #FCD980;
-  color: #1B1C2B;
+  background: #fcd980;
+  color: #1b1c2b;
   border-radius: 41px;
   transition: 0.5s ease-in-out;
 }
-.workBuldElement{
+.workBuldElement {
   text-align: center;
-  
 }
 
-.workPragraph{
+.workPragraph {
   width: 562px;
   margin: 0 auto;
   padding: 20px 0 40px;
-
 }
-.workBuldMain{
+.workBuldMain {
   padding: 128px 0;
 }
+
+/* responsive for extra small devices start */
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .workBuildHeading {
+    font-size: 34px;
+    line-height: 48px;
+  }
+  .workPragraph {
+    width: auto;
+  }
+  .workBuldButton:hover {
+    background: #fcd980;
+    color: #282828;
+  }
+  .workBuldMain {
+    padding: 95px 0;
+  }
+}
+
+/* responsive for extra small devices end */
+/* responsive for  small devices start */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .workBuldButton:hover {
+    background: #fcd980;
+    color: #282828;
+  }
+}
+
+/* responsive for  small devices end */
+/* responsive for  medium devices start */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .workBuldButton:hover {
+    background: #fcd980;
+    color: #282828;
+  }
+}
+
+/* responsive for  medium devices end */
