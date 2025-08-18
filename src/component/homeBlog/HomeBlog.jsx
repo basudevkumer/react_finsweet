@@ -2,6 +2,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./homeBlog.css";
 import BlogCommon from "../blogCommon/BlogCommon";
 import BlogOne from "../../assets/homeblog1.png"
+import BlogTwo from "../../assets/homeblog2.png"
+import BlogThree from "../../assets/homeblog3.png"
 
 const HomeBlog = () => {
   return (
@@ -40,7 +42,7 @@ const HomeBlog = () => {
                 cardPragraph={
                   "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"
                 }
-                blogButtonText={"Read More"} blogImage={BlogOne}
+                blogButtonText={"Read More"} blogImage={BlogTwo}
                  blogButtonEdit={"buttonTextColor"}
               />
             </div>
@@ -55,7 +57,7 @@ const HomeBlog = () => {
                 cardPragraph={
                   "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"
                 }
-                blogButtonText={"Read More"} blogImage={BlogOne}
+                blogButtonText={"Read More"} blogImage={BlogThree}
                  blogButtonEdit={"buttonTextColor"}
               />
             </div>

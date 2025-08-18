@@ -88,6 +88,7 @@ const FeaturePlanCard = ({
           <Button children={buttonName} className="featureButton pragraph" />
         </div>
       </Card.Body>
+      <div className="featurePlanCardOverlay"></div>
     </Card>
   );
 };

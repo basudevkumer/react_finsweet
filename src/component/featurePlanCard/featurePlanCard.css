@@ -4,6 +4,30 @@
   background: #f4f6fc;
   transition: 0.5s ease-in-out;
   height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.featureCardBody {
+  z-index: 5;
+}
+
+.featurePlanCardMain:hover .featureCardBody {
+  z-index: 5;
+}
+.featurePlanCardMain:hover .featurePlanCardOverlay {
+  z-index: 0;
+}
+
+.featurePlanCardOverlay {
+  height: 1151px;
+  width: 1151px;
+  background: rgba(255, 255, 255, 0.06);
+  position: absolute;
+  top: -529px;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 0 !important;
 }
 .featureCardHeadingMoney {
   display: flex;
@@ -39,10 +63,12 @@
 .featurePlanCardMain {
   transition: 0.5s ease-in-out;
 }
+
 .featurePlanCardMain:hover .featureButton {
   background: #fcd980;
   color: #1c1e53 !important;
 }
+
 .featurePlanCardMain:hover {
   background: #1c1e53;
 }
@@ -97,6 +123,7 @@
   .featureButtonParent {
     text-align: start;
   }
+  
 }
 
 /* responsive for extra small devices end */
@@ -166,7 +193,6 @@
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
   .pragraphOne {
-    
     white-space: nowrap;
   }
   .featureItem {
@@ -174,9 +200,13 @@
   }
 
   .featurePlanCardMain {
-    padding:55px 0;
-
+    padding: 55px 0;
   }
+  .featurePlanCardOverlay{
+    top: -531px;
+  }
+
+ 
 }
 
 /* responsive for  large devices end */
